@@ -48,7 +48,7 @@ class _TestState extends State<Test> {
           child: Container(
             width: double.infinity,
             height: double.infinity,
-            color: Colors.blueGrey,
+            color: Colors.blue,
             child: Column(
               children: [
                 // SizedBox(
@@ -69,9 +69,9 @@ class _TestState extends State<Test> {
                 moretext(Icons.shop, 'Become a Supplier'),
                 moretext(Icons.settings, 'My Setting'),
                 moretext(Icons.business_sharp, 'Business Logo'),
-                // moretext(Icons.shop, 'Become a Supplier'),
-                // moretext(Icons.settings, 'My Setting'),
-                // moretext(Icons.business_sharp, 'Business Logo'),
+                moretext(Icons.shop, 'Become a Supplier'),
+                moretext(Icons.settings, 'My Setting'),
+                moretext(Icons.business_sharp, 'Business Logo'),
 
                 //  bottom(),
               ],

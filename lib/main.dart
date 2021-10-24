@@ -7,12 +7,13 @@ import 'package:learnflutter/04_LoginPage.dart';
 import 'package:learnflutter/05Test_.dart';
 import 'package:learnflutter/06_Image.dart';
 import 'package:learnflutter/07_RashiFal.dart';
+import 'package:learnflutter/08_WebView.dart';
 
 void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const Test(),
+      home: const MyHome2(),
     ),
   );
 }

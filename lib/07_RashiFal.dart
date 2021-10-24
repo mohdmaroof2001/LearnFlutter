@@ -119,7 +119,8 @@ class _RashiFalState extends State<RashiFal> {
   }) {
     var width = MediaQuery.of(context).size.width / 3;
     var height = (MediaQuery.of(context).size.height -
-            MediaQuery.of(context).padding.top) /
+            MediaQuery.of(context).padding.top -
+            56) /
         4;
 
     return Row(
