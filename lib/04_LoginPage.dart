@@ -38,7 +38,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
               TextField(
                 controller: pwdTEC,
-                obscureText: true,
+                obscureText: true, //passward hide
                 decoration: InputDecoration(
                   prefixIcon: Icon(Icons.keyboard),
                   suffixIcon: Icon(Icons.remove_red_eye),

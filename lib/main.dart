@@ -8,12 +8,13 @@ import 'package:learnflutter/05Test_.dart';
 import 'package:learnflutter/06_Image.dart';
 import 'package:learnflutter/07_RashiFal.dart';
 import 'package:learnflutter/08_WebView.dart';
+import 'package:learnflutter/09_ApiCall.dart';
 
 void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const MyHome2(),
+      home: const ApiCall(),
     ),
   );
 }
